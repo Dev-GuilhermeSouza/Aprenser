@@ -1,0 +1,210 @@
+
+.container__hero__img img{
+    width: 600px;
+}
+
+.color{
+    background: linear-gradient(182deg, white, rgba(255, 255, 0, 0.753));
+}
+
+.container__hero__info {
+    height: 541px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__texto h3{
+    font-size: 70px;
+    width: 536px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.container__texto a{
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    background-color: #fed001;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+main{
+    background-color: #FAFAFA;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.cursos h1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container__cursos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__article{
+    background-color: white;
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    height: 360px;
+
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+}
+
+.container__article img{
+    width:400px;
+}
+
+.container__article__text{
+    padding: 15px;
+}
+.container__article__text h4{
+    font-size: 20px;
+}
+.container__article__text p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.container__button{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__button a{
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 700;
+    background-color: #fed001;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.escola{
+    margin-top: 100px;
+    background-color: #003464;
+}
+
+.container__escola{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__escola__img img{
+    width: 580px;
+}
+
+.container__escola__text{
+    width: 657px;
+
+}
+
+.container__escola__text h3{
+    font-size: 40px;
+    color: white;
+}
+.container__escola__text p{
+    margin-top: 65px;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+form {
+    background-color: #1E1E1E;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FED001;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 2px solid #FED001;
+    background-color: #444;
+}
+
+button[type="submit"] {
+    background-color: #FED001;
+    color: #2A2A2A;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0b800;
+}
+
+.container__contact{
+    margin-top: 100px;
+}
+.container__contact h1{
+    text-align: center;
+    margin: 50px;
+}
+
+
+.contact{
+    
+    display: flex
+;
+align-items: center;
+    justify-content: space-around;
+}

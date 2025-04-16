@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Menu desktop */
+  .menu {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .menu ul{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu li{
+    padding: 12px;
+    list-style-type: none;
+  }
+  
+  .menu a {
+    color: #fed001;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 14px;
+    border: 1px solid #fed001;
+  }
+  
+  /* Botão hambúrguer (escondido por padrão) */
+  .hamburguer {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Menu mobile (escondido por padrão) */
+  .menu-mobile {
+    display: none;
+    flex-direction: column;
+    background-color: #111;
+    padding: 10px;
+  }
+  
+  .menu-mobile a {
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsividade: ativa o hambúrguer em telas menores */
+  
+
+
+  .margin{
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  
+
+  .control__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+  }
+
+  .control__header__logo img{
+    width: 150px;
+  }
+
+  .container__header{
+    background-color: #2A2A2A;
+  }

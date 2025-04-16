@@ -1,0 +1,68 @@
+
+
+.rodape {
+    background-color: #2A2A2A;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 100px;
+
+}
+
+.container__footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.container__footer__logo img {
+    width: 150px;
+}
+
+.container__footer__navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container__footer__navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.container__footer__navbar a:hover,
+.container__footer__navbar a.active {
+    color: #FED001;
+}
+
+.container__footer__redes a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.container__footer__redes a:hover {
+    color: #FED001;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container__footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container__footer__navbar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

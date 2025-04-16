@@ -1,0 +1,179 @@
+@media (max-width: 1024px) {
+    .menu {
+      display: none;
+    }
+
+    .margin{
+      margin: 0px;
+    }
+  
+    .hamburguer {
+      display: block;
+      padding: 10px;
+      background-color: #111;
+      width: 100%;
+      text-align: left;
+      border-radius: 5px;
+    }
+  
+    .menu-mobile.ativo {
+      display: flex;
+    }
+    
+    .control__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 130px;
+    }
+
+    .menu-mobile {
+        display: none;
+        flex-direction: column;
+        background-color: #e0b800;
+        padding: 10px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+
+    .control__header__navbar{
+        position: relative;
+    top: -2px;
+    left: -50px;
+    height: 49px;
+    }
+
+    .container__hero__info {
+        height: 665px;
+        display: flex
+    ;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container__hero__img img {
+        width: 485px;
+    }
+
+    .container__texto a {
+        font-family: 'Maven Pro', sans-serif;
+        text-decoration: none;
+        color: #2a2a2a;
+        font-weight: 600;
+        background-color: #fed001;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 5px;
+        position: relative;
+        left: 170px;
+    }
+
+
+    .container__texto h3 {
+        font-size: 47px;
+        width: auto;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 600;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .card {
+        width: 435px;
+       padding: 20px; 
+        transition: transform 0.3s ease;
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__article {
+        background-color: white;
+        width: 295px;
+        border: 1px solid rgba(128, 128, 128, 0.37);
+        border-radius: 10px;
+        height: 360px;
+    }
+
+    .container__article img {
+        width: 295px;
+    }
+    
+    .container__cursos {
+        margin-top: 50px;
+        display: flex
+    ;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container__escola {
+        display: flex
+        ;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                position: relative;
+                top: 50px;
+    }
+
+    .container__escola__text {
+        width: 410px;
+    }
+
+    .container__escola__img img {
+        width: 423px;
+    }
+
+    .container__escola__text p {
+        margin-top: 34px;
+    font-size: 18px;
+    color: white;
+    }
+
+    .escola {
+        margin-top: 100px;
+        background-color: #003464;
+        height: 763px;
+    }
+
+
+
+    .contact {
+        display: flex
+    ;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    form {
+        background-color: #1E1E1E;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .contact_local iframe{
+        height: 300px;
+        width: 400px;
+        margin-top: 40px;
+    }
+
+
+    .container__footer {
+        flex-direction: column;
+        align-items: center;
+        display: flex
+;
+        justify-content: center;
+    }
+
+  }
