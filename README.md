@@ -2,7 +2,7 @@
 
 **Projeto fictício de site institucional para uma empresa de educação online.**
 
-Este projeto foi desenvolvido com o objetivo de praticar e consolidar conhecimentos em HTML e CSS, focando na criação de um site moderno, responsivo e visualmente agradável.
+Este projeto foi desenvolvido com o objetivo de praticar e consolidar conhecimentos em HTML, JS e CSS, focando na criação de um site moderno, responsivo e visualmente agradável.
 
 ---
 
